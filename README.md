@@ -1,10 +1,8 @@
-\# Solar Power Generation Prediction
+# Solar Power Generation Prediction
 
+## **Author: ** **Owen Nda Diche**
 
-
-This project predicts \*\*solar power generation\*\* based on weather and environmental features using machine learning. It demonstrates data preprocessing, exploratory data analysis, modeling, evaluation, and feature importance analysis for renewable energy applications.
-
-
+This project predicts **solar power generation** based on weather and environmental features using machine learning. It demonstrates data preprocessing, exploratory data analysis, modeling, evaluation, and feature importance analysis for renewable energy applications.
 
 
 
@@ -12,7 +10,7 @@ This project predicts \*\*solar power generation\*\* based on weather and enviro
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -24,7 +22,7 @@ Key steps:
 
 
 
-&nbsp;\*\*Data Exploration\*\*
+&nbsp;**Data Exploration**
 
 &nbsp;  - Inspect dataset shape and data types.
 
@@ -34,7 +32,7 @@ Key steps:
 
 
 
-&nbsp;\*\*Data Preprocessing\*\*
+&nbsp;**Data Preprocessing**
 
 &nbsp;  - Separate features (`X`) and target (`y`).
 
@@ -42,7 +40,7 @@ Key steps:
 
 
 
-&nbsp;\*\*Modeling\*\*
+&nbsp;**Modeling**
 
 &nbsp;  - Random Forest Regressor trained on weather features.
 
@@ -50,7 +48,7 @@ Key steps:
 
 
 
-&nbsp;\*\*Evaluation\*\*
+&nbsp;**Evaluation**
 
 &nbsp;  - Metrics: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), R² Score.
 
@@ -58,7 +56,7 @@ Key steps:
 
 
 
-&nbsp;\*\*Feature Importance\*\*
+&nbsp;**Feature Importance**
 
 &nbsp;  - Analyze which features most influence solar power output.
 
@@ -69,38 +67,37 @@ Key steps:
 ---
 
 
-
-\## Results
-
-
-
-\- \*\*Distribution of Generated Power:\*\*  
-
-&nbsp; !view result folder
+## Results
 
 
 
-\- \*\*Actual vs Predicted Power:\*\*  
+- **Distribution of Generated Power:**  
 
-&nbsp; !\[Actual vs Predicted](results/actual\_vs\_predicted.png)
-
-
-
-\- \*\*Feature Importance:\*\*  
-
-&nbsp; !\[Feature Importance](results/feature\_importance.png)  
-
-&nbsp; Features like \*\*temperature, cloud cover, and wind speed\*\* were most influential.
+&nbsp; View result folder
 
 
 
-\- \*\*Performance Metrics:\*\*
+- **Actual vs Predicted Power:**  
 
-&nbsp; - Mean Absolute Error (MAE): \*253.78\*
+&nbsp; View result folder
 
-&nbsp; - Root Mean Squared Error (RMSE): \*404.10\*
 
-&nbsp; - R² Score: \*0.82\*
+
+- **Feature Importance:**  
+
+&&nbsp; View result folder 
+
+&nbsp; Features like **temperature, cloud cover, and wind speed** were most influential.
+
+
+
+- **Performance Metrics:**
+
+&nbsp; - Mean Absolute Error (MAE): *253.78*
+
+&nbsp; - Root Mean Squared Error (RMSE): *404.10*
+
+&nbsp; - R² Score: *0.82*
 
 
 
